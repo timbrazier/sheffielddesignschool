@@ -183,7 +183,9 @@ input[type="button"] {
   background-color: #FFDD59;
   border: none;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border-radius: 0;}
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
