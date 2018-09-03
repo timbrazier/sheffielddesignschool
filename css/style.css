@@ -1,0 +1,47 @@
+body{
+  background: #fff;
+  font-family: 'Lato', sans-serif !important;
+  text-align: center;
+  color: #4A4A4A !important;
+}
+
+.logo{
+  margin: 30px;
+}
+
+strong{
+  font-weight: 800 !important;
+}
+
+em{
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1{
+  font-size: 3em;
+}
+
+p{
+  font-size: 1.3em;
+  font-weight: 300;
+  margin-top: 30px !important;
+}
+
+label{
+  font-size: 1.3em;
+  font-weight: 300 !important;
+  color: #4A4A4A !important;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.header{
+  background: #FFDD59;
+  padding: 50px 0;
+}
+
+form{
+  margin: 0 auto;
+  line-height: 1.5 !important;
+  font-weight: 300;
+}
