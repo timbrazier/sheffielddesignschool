@@ -399,9 +399,12 @@ hr {
   display: table;
   clear: both; }
 
-input[type=text], input[type=button] {
-   -webkit-appearance: none;
-   -webkit-border-radius: 0;
+input[type=text], input[type=button], input[type="submit"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
   }
 
 /* Media Queries
