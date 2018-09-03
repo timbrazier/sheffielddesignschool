@@ -45,3 +45,11 @@ form{
   line-height: 1.5 !important;
   font-weight: 300;
 }
+
+button{
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
