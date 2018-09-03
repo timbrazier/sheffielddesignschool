@@ -198,14 +198,18 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #4A4A4A;
   border-color: none;
-  outline: 0; }
+  outline: 0;
+  -webkit-appearance: none;
+  border-radius: 0;}
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #4A4A4A;
-  background-color: #FFDD59;}
+  background-color: #FFDD59;
+  -webkit-appearance: none;
+  border-radius: 0;}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -217,7 +221,9 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #4A4A4A;
-  background-color: #FFDD59; }
+  background-color: #FFDD59;
+  -webkit-appearance: none;
+  border-radius: 0;}
 
 
 /* Forms
@@ -249,7 +255,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
-textarea {
+textarea, button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none; }
