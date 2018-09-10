@@ -169,7 +169,6 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  display: inline-block;
   height: 38px;
   padding: 0 30px;
   color: #4A4A4A;
@@ -185,7 +184,7 @@ input[type="button"] {
   cursor: pointer;
   box-sizing: border-box;
   -webkit-appearance: none;
-  border-radius: 0;}
+  border-radius: 2;}
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -200,7 +199,7 @@ input[type="button"]:focus {
   border-color: none;
   outline: 0;
   -webkit-appearance: none;
-  border-radius: 0;}
+  border-radius: 2;}
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -209,7 +208,7 @@ input[type="button"].button-primary {
   color: #4A4A4A;
   background-color: #FFDD59;
   -webkit-appearance: none;
-  border-radius: 0;}
+  border-radius: 2;}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -223,7 +222,7 @@ input[type="button"].button-primary:focus {
   color: #4A4A4A;
   background-color: #FFDD59;
   -webkit-appearance: none;
-  border-radius: 0;}
+  border-radius: 2;}
 
 
 /* Forms
@@ -279,7 +278,7 @@ select:focus {
 label,
 legend {
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: -20px;
   font-weight: 600; }
 fieldset {
   padding: 0;
@@ -347,7 +346,8 @@ td:last-child {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
-  margin-bottom: 1rem; }
+
+  margin: 20px; }
 input,
 textarea,
 select,

@@ -6,7 +6,7 @@ body{
 }
 
 .logo{
-  margin: 30px;
+  margin: 20px;
 }
 
 strong{
@@ -19,7 +19,7 @@ em{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 3em !important;
 }
 
 p{
@@ -33,6 +33,7 @@ label{
   font-weight: 300 !important;
   color: #4A4A4A !important;
   font-family: 'Lato', sans-serif !important;
+  display: none !important;
 }
 
 .header{
@@ -44,6 +45,13 @@ form{
   margin: 0 auto;
   line-height: 1.5 !important;
   font-weight: 300;
+
+}
+
+::placeholder{
+  font-size: 1em !important;
+  font-family: 'Lato' sans-serif !important;
+  font-weight: 300;
 }
 
 button{
@@ -52,4 +60,9 @@ button{
   appearance: none !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
+  margin: 20px 0 !important;
+}
+
+span{
+  font-size: 0.8em;
 }
